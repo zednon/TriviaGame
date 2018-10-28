@@ -77,7 +77,7 @@ var right = 0
 var wrong = 0
 
 
-
+// today I relized I'd rather appead the questions but didn't have time to modify the code. 
 $(document).on("click" , ".choice", function(){
     var choice = $(this).text()
     console.log(choice)
@@ -104,6 +104,7 @@ $(document).on("click" , ".choice", function(){
     }});
  
 function askQuestion(){
+    // this needs to be played with more I can't figure out why it isn't loading at the end. I'd also like to add some articals about this amazing man. 
     if (index === questions.length-1) {
         alert("game over")
         console.log(gameover)
@@ -128,6 +129,10 @@ askQuestion()
 
 
 
+
+
+// one of these times needs to be on hte right path and added to the game to time the rounds. 
+// I'd rather have a whoel game timer however I dont' like each round being timed, it doesn't give poeple who use readers proper time to play or anyone with problems readding. 
 
 
 
